@@ -39,7 +39,7 @@ class Game
             var displayPosition = 120;
             for (var plr in allPlayers) 
             {
-                if (plr === "player" + player.index())
+                if (plr === "player" + player.index)
                 {
                     fill("red");    
                 }else
